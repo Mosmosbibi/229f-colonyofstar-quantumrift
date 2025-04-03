@@ -626,7 +626,7 @@ public class PrometeoCarController : MonoBehaviour
     }
 
     // This function is used to make the car lose traction. By using this, the car will start drifting. The amount of traction lost
-    // will depend on the handbrakeDriftMultiplier variable. If this value is small, then the car will not drift too much, but iff
+    // will depend on the handbrakeDriftMultiplier variable. If this value is small, then the car will not drift too much, but if
     // it is high, then you could make the car to feel like going on ice.
     public void Handbrake(){
       CancelInvoke("RecoverTraction");
